@@ -1,0 +1,61 @@
+{ 
+    "customers": [
+        { "id": 1, "name": "John Doe", "email": "john.doe@gmail.com", "phone": "+36701234567" },
+        { "id": 2, "name": "Jane Doe", "email": "jane.doe@yahoo.com", "phone": "+36307654321" },
+        { "id": 3, "name": "Phil Smith", "email": "philsmith@gmail.com", "phone": "+36204321765" }
+    ],
+    "products": [
+        {
+            "name": "Boots of Speed",
+            "description": "<groupLimit>Limited to 1.</groupLimit><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +25 Movement Speed",
+            "plaintext": "Slightly increases Movement Speed",
+            "id": 1,
+            "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1001.png",
+            "price": 300,
+            "purchasable": true
+          },
+          {
+            "name": "Faerie Charm",
+            "description": "<stats><mana>+25% Base Mana Regen </mana></stats>",
+            "plaintext": "Slightly increases Mana Regen",
+            "id": 2,
+            "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1004.png",
+            "price": 125,
+            "purchasable": true
+          },
+          {
+            "name": "Rejuvenation Bead",
+            "description": "<stats>+50% Base Health Regen </stats>",
+            "plaintext": "Slightly increases Health Regen",
+            "id": 3,
+            "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1006.png",
+            "price": 150,
+            "purchasable": false
+          },
+          {
+            "name": "Giant's Belt",
+            "description": "<stats>+380 Health</stats>",
+            "plaintext": "Greatly increases Health",
+            "id": 4,
+            "icon": "http://ddragon.leagueoflegends.com/cdn/7.8.1/img/item/1011.png",
+            "price": 600,
+            "purchasable": true
+          }
+    ],
+    "orders": [
+        {
+            "customerId": 1,
+            "products": [
+                { "id": 1, "cnt": 2 },
+                { "id": 2, "cnt": 4 },
+                { "id": 4, "cnt": 8 }
+            ]
+        },
+        {
+            "customerId": 2,
+            "products": [
+                { "id": 3, "cnt": 1 }
+            ]
+        }
+    ]
+}
